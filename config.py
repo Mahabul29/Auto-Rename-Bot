@@ -13,7 +13,7 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
+    START_PIC   = os.environ.get("START_PIC", "https://www.google.com/search?client=ms-android-realme-terr1-rso2&sca_esv=9ff2464d0a2b6d7c&sxsrf=ADLYWIJ0s4DL26aukJpEm9mGWWJX1kLQfA:1733686369016&q=photo&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J603JUkR9Y5suk8yuy50qOYMMWTNCTu57lKPsZpPcfqPQwPMMD4P0WXn1oc4jxGqgrnGDQAHv6uVcupsPqs5yVAB-aeUFpuUGeYGyC-ZDd7DXpAVydQy474RdyTxQZK3uuQVTcYM611AhWiy_lKUTPZuNTzkchQWI5ouX37zUmoRXBjdMA&sa=X&ved=2ahUKEwjaiLWB9ZiKAxURyzQHHT4cOjcQtKgLegQIFBAB&biw=360&bih=692&dpr=3#vhid=biHuGsdCb7QpzM&vssid=mosaic")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
     # -- FORCE_SUB_CHANNELS = ["Hindi_Dub_Netflix_Movies"] -- # 
     FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'Hindi_Dub_Netflix_Movies').split(',')
@@ -39,7 +39,7 @@ class Txt(object):
 
 <b>Bot Is Made By @Hindi_Dub_Animes_Official</b>
 
-<b><a href='https://github.com/AshutoshGoswami24/Auto-Rename-Bot'>AshutoshGoswami24/Auto-Rename-Bot.git</a></b>
+<b><a href='https://github.com/Mahabul201/Auto-Rename-Bot'>Mahabul29/Auto-Rename-Bot.git</a></b>
 """
     
     FILE_NAME_TXT = """<b><u>SETUP AUTO RENAME FORMAT</u></b>
@@ -49,7 +49,7 @@ Use These Keywords To Setup Custom File Name
 ✓ `[episode]` :- To Replace Episode Number
 ✓ `[quality]` :- To Replace Video Resolution
 
-<b>➻ Example :</b> <code> /autorename Naruto Shippuden S01[episode] [quality][Dual Audio] @AshutoshGoswami24</code>
+<b>➻ Example :</b> <code> /autorename Naruto Shippuden S01[episode] [quality][Dual Audio] @Hindi_Dub_Animes_Official</code>
 
 <b>➻ Your Current Auto Rename Format :</b> <code>{format_template}</code> """
     
@@ -57,9 +57,9 @@ Use These Keywords To Setup Custom File Name
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/AshutoshGoswami24'>PandaWep</a>
+<b>🧑‍💻 Developer :</b> <a href='https://t.me/Hindi_Dub_Animes_Official'>PandaWep</a>
     
-<b>♻️ Bot Made By :</b> @AshutoshGoswami24"""
+<b>♻️ Bot Made By :</b> @Hindi_Dub_Animes_Official"""
 
     
     THUMBNAIL_TXT = """<b><u>🖼️  HOW TO SET THUMBNAIL</u></b>
@@ -81,7 +81,7 @@ Use These Keywords To Setup Custom File Name
 ┣⪼ ⏳️ Dᴏɴᴇ : {0}%
 ┣⪼ 🚀 Sᴩᴇᴇᴅ: {3}/s
 ┣⪼ ⏰️ Eᴛᴀ: {4}
-┣⪼ 🥺 joine Plz: @AshutoshGoswami24
+┣⪼ 🥺 joine Plz: @Hindi_Dub_Animes_Official
 ╰━━━━━━━━━━━━━━━➣ </b>"""
     
     
@@ -93,7 +93,7 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
     
     HELP_TXT = """<b>Hey</b> {}
     
-Joine @AshutoshGoswami24 To Help """
+Joine @Hindi_Dub_Animes_Official To Help """
 
 
 
