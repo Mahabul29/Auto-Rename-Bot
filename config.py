@@ -5,23 +5,23 @@ class Config(object):
     # pyro client config
     API_ID    = os.environ.get("API_ID", "15810007")
     API_HASH  = os.environ.get("API_HASH", "6d860c95ed52acc0641537796a40215d")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7619118800:AAEMORInMnMQkKSxSxy-4XKy1raGIMHmuRk") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7914442526:AAHtEiO2Znfpthg1kn2-H3Tv7tHuuixnLio") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","AshutoshGoswami24")     
+    DB_NAME = os.environ.get("DB_NAME","Mahabul201")     
     DB_URL  = os.environ.get("DB_URL","")
  
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
-    # -- FORCE_SUB_CHANNELS = ["BotzPW","AshuSupport","AshutoshGoswami24"] -- # 
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'AshutoshGoswami24,BotzPW').split(',')
+    # -- FORCE_SUB_CHANNELS = ["Hindi_Dub_Netflix_Movies"] -- # 
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'Hindi_Dub_Netflix_Movies').split(',')
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
     PORT = int(os.environ.get("PORT", ""))
     
     # wes response configuration     
-    WEBHOOK = bool(os.environ.get("WEBHOOK", "True"))
+    WEBHOOK = bool(os.environ.get("WEBHOOK", "False"))
 
 
 class Txt(object):
@@ -37,7 +37,7 @@ class Txt(object):
     
 ➻ Use /tutorial Command To Know How To Use Me.
 
-<b>Bot Is Made By @AshutoshGoswami24</b>
+<b>Bot Is Made By @Hindi_Dub_Animes_Official</b>
 
 <b><a href='https://github.com/AshutoshGoswami24/Auto-Rename-Bot'>AshutoshGoswami24/Auto-Rename-Bot.git</a></b>
 """
