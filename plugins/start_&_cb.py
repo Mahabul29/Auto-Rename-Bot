@@ -10,13 +10,13 @@ async def start(client, message):
     user = message.from_user
     await madflixbotz.add_user(client, message)                
     button = InlineKeyboardMarkup([[
-      InlineKeyboardButton('📢 Updates', url='https://t.me/Madflix_Bots'),
-      InlineKeyboardButton('💬 Support', url='https://t.me/MadflixBots_Support')
+      InlineKeyboardButton(' Animes', url='https://t.me/Hindi_Dub_Animes_Official'),
+      InlineKeyboardButton(' Movies', url='https://t.me/Hindi_Dub_Netflix_Movies')
     ],[
       InlineKeyboardButton('⚙️ Help', callback_data='help'),
       InlineKeyboardButton('💙 About', callback_data='about')
     ],[
-        InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url='https://t.me/CallAdminRobot')
+        InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url='https://t.me/Mahabul201')
     ]])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
@@ -33,13 +33,13 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton('📢 Updates', url='https://t.me/Madflix_Bots'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/MadflixBots_Support')
+                InlineKeyboardButton(' Animes', url='https://t.me/Hindi_Dub_Animes_Official'),
+                InlineKeyboardButton(' Movies', url='https://t.me/Hindi_Dub_Netflix_Movies')
                 ],[
-                InlineKeyboardButton('⚙️ Help', callback_data='help'),
-                InlineKeyboardButton('💙 About', callback_data='about')
+                InlineKeyboardButton(' Help', callback_data='help'),
+                InlineKeyboardButton(' About', callback_data='about')
                 ],[
-                InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url='https://t.me/CallAdminRobot')
+                InlineKeyboardButton(" Developer ", url='https://t.me/Mahabul201')
                 ]])
         )
     elif data == "caption":
@@ -47,8 +47,8 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.CAPTION_TXT,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("✖️ Close", callback_data="close"),
-                InlineKeyboardButton("🔙 Back", callback_data="help")
+                InlineKeyboardButton(" Close", callback_data="close"),
+                InlineKeyboardButton(" Back", callback_data="help")
             ]])            
         )
     elif data == "help":
