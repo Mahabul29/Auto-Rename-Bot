@@ -35,7 +35,7 @@ class Txt(object):
     
 ➻ Use /tutorial Command To Know How To Use Me.
     
-<b>Bot Is Made By @Hindi_Dub_Animes_Official</b>"""
+<b>Bot Is Made By @Mahabul201</b>"""
     
     FILE_NAME_TXT = """<b><u>SETUP AUTO RENAME FORMAT</u></b>
 
@@ -52,7 +52,7 @@ Use These Keywords To Setup Custom File Name
 <b> Language :</b> <a href='https://python.org'>Python 3</a>
 <b> Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b> Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b> Channel :</b> <a href='https://t.me/Hindi_Dub_Animes_Officia'>Anime</a>
+<b> Channel :</b> <a href='https://t.me/Hindi_Dub_Animes_Official'>Anime</a>
 <b> Developer :</b> <a href='https://t.me/'>Mahabul201</a>
     
 <b> Bot Made By :</b> @Mahabul201"""
