@@ -27,13 +27,9 @@ class Txt(object):
         
     START_TXT = """Hello {} 
     
-➻ This Is An Advanced And Yet Powerful Rename Bot.
-    
-➻ Using This Bot You Can Auto Rename Of Your Files.
-    
-➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
-    
-➻ Use /tutorial Command To Know How To Use Me.
+I am a powerful rename bot! With 2GB+ file support and custom thumbnail and caption features.
+
+Click help button to know more about me
     
 <b>Bot Is Made By @Mahabul201</b>"""
     
